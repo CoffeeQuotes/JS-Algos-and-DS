@@ -1,3 +1,4 @@
+/* 
 function removeDuplicates(arr) {
 	const uniqureArr = [];
 	for (let i = 0; i < arr.length; i++) {
@@ -7,5 +8,9 @@ function removeDuplicates(arr) {
 	}
 	return uniqureArr;
 }
+*/
 
+function removeDuplicates(arr) {
+	return Array.from(new Set(arr));
+}
 module.exports = removeDuplicates;
